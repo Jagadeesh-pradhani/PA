@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import rospy
-from your_ros_package.srv import turtlebot_move_square
+from rss_pubsub_pkg.srv import turtlebot_move_square
 
 def move_square_client(side_length, repetitions):
     rospy.wait_for_service('turtlebot_move_square')

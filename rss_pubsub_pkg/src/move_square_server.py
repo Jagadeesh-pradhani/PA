@@ -2,7 +2,7 @@
 
 import rospy
 from geometry_msgs.msg import Twist
-from your_ros_package.srv import turtlebot_move_square, turtlebot_move_squareResponse
+from rss_pubsub_pkg.srv import turtlebot_move_square, turtlebot_move_squareResponse
 
 def move_square(side_length, repetitions):
     vel_pub = rospy.Publisher('/cmd_vel', Twist, queue_size=10)
