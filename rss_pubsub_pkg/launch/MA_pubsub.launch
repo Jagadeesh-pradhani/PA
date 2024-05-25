@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<launch>
-    <node name="pub_node" pkg="rss_pubsub_pkg" type="MA_publisher.py" output="screen">
-    </node>    
-
-    <node name="sub_node" pkg="rss_pubsub_pkg" type="MA_subscriber.py" output="screen">
-    </node> 
-</launch>

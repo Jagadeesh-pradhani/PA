@@ -1,8 +1,0 @@
-<launch>
-
-
-    <!-- Run the pengwang_pubsub node -->
-    <node name="pengwang_pubsub" pkg="rss_pubsub_pkg" type="MA_odom.py" output="screen">
-        <param name="target_distance" value="1.0" />
-    </node>
-</launch>
