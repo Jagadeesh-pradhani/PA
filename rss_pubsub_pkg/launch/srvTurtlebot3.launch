@@ -1,0 +1,6 @@
+<launch>
+    <!-- Launch the empty world for TurtleBot3 -->
+    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_empty_world.launch" />
+    <include file="$(find rss_pubsub_pkg)/launch/MA_pubsub.launch" />
+
+</launch>
