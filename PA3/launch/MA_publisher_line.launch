@@ -1,0 +1,3 @@
+<launch>
+    <node name="MA_publisher_line" pkg="PA3" type="MA_publisher_line.py" output="screen"/>
+</launch>
