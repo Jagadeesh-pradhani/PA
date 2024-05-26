@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <node name="server_node" pkg="PA6" type="move_square_server.py" output="screen">
+    </node>    
+
+    <node name="client_node" pkg="PA6" type="move_square_client.py" output="screen">
+    </node> 
+</launch>
